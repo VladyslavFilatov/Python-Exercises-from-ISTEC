@@ -1,0 +1,11 @@
+from math import sqrt
+print("Introduza as coordenadas do x1")
+x1 = float(input())
+print("Introduza as coordenadas do x2")
+x2 = float(input())
+print("Introduza as coordenadas do y1")
+y1 = float(input())
+print("Introduza as coordenadas do y2")
+y2 = float(input())
+print(f"Distância euclidiana entre dois pontos = {sqrt((x1 - x2)**2 + (y1 - y2)**2)}")
+input()
